@@ -1,0 +1,23 @@
+{
+    "name": "opentable-etcd",
+    "version": "1.0.0",
+    "author": "Chris Cartlidge, Robert Luong, Kyle Anderson",
+    "license": "Apache-2.0",
+    "summary": "A Puppet module to install and configure etcd v3.X",
+    "source": "https://github.com/opentable/etcd",
+    "project_page": "https://github.com/opentable/etcd",
+    "issues_url": "https://github.com/opentable/etcd/issues",
+    "tags": ["etcd", "config"],
+    "operatingsystem_support": [
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "13.04",
+          "14.04"
+        ]
+      }
+    ],
+    "dependencies": [
+      { "name": "puppetlabs/stdlib", "version_requirement": ">= 3.2.0" }
+    ]
+}
